@@ -14,12 +14,15 @@ Summary: The asttokens module annotates Python abstract syntax trees (ASTs) with
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/asttokens-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/asttokens-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/asttokens-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/asttokens-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/asttokens/badges/version.svg)](https://anaconda.org/conda-forge/asttokens)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/asttokens/badges/downloads.svg)](https://anaconda.org/conda-forge/asttokens)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-asttokens-green.svg)](https://anaconda.org/conda-forge/asttokens) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/asttokens.svg)](https://anaconda.org/conda-forge/asttokens) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/asttokens.svg)](https://anaconda.org/conda-forge/asttokens) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/asttokens.svg)](https://anaconda.org/conda-forge/asttokens) |
 
 Installing asttokens
 ====================
