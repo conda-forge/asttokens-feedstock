@@ -1,6 +1,6 @@
 {% set name = "asttokens" %}
-{% set version = "1.1.11" %}
-{% set sha256 = "712a2bbffc78b6b752563afdb965268584f9492916645f51315487f22c8d1473" %}
+{% set version = "1.1.12" %}
+{% set sha256 = "af21ed12c4cdf8cfb85b33486f2bbbbfea2bc65bfef330c8e226b1eab8a0b2e2" %}
 
 package:
   name: {{ name|lower }}
