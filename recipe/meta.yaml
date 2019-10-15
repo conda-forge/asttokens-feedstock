@@ -1,6 +1,6 @@
 {% set name = "asttokens" %}
-{% set version = "1.1.15" %}
-{% set sha256 = "b9a2d9d38b2e42fdb587e00619033b936adb76ef572d10f149d9c0552813d4d3" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "6910d669cc113831adbcb05fb4a2381dca8ffe4d2991020cd5a90cf109675c77" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
