@@ -1,6 +1,6 @@
 {% set name = "asttokens" %}
-{% set version = "2.0.3" %}
-{% set sha256 = "284831ac3e33be743ca6ac018316b66abfd8b1a49d6366ce6c7b1fd07504a21b" %}
+{% set version = "2.0.4" %}
+{% set sha256 = "a42e57e28f2ac1c85ed9b1f84109401427e5c63c04f61d15b8842b027eec5128" %}
 
 package:
   name: {{ name|lower }}
@@ -33,7 +33,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'The asttokens module annotates Python abstract syntax trees (ASTs) with the positions of tokens and text in the source code that generated them.'
+  summary: The asttokens module annotates Python abstract syntax trees (ASTs) with the positions of tokens and text in the source code that generated them.
   dev_url: https://github.com/gristlabs/asttokens
 
 extra:
