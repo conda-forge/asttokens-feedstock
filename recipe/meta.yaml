@@ -20,6 +20,8 @@ requirements:
   host:
     - python
     - pip
+    - setuptools >=44
+    - setuptools_scm >=3.4.3
   run:
     - python
     - six
