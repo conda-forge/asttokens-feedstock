@@ -5,11 +5,11 @@ Home: https://github.com/gristlabs/asttokens
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asttokens-feedstock/blob/master/LICENSE.txt)
 
 Summary: The asttokens module annotates Python abstract syntax trees (ASTs) with the positions of tokens and text in the source code that generated them.
 
-
+Development: https://github.com/gristlabs/asttokens
 
 Current build status
 ====================
@@ -38,6 +38,7 @@ Installing `asttokens` from the `conda-forge` channel can be achieved by adding 
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `asttokens` can be installed with:
@@ -108,9 +109,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
