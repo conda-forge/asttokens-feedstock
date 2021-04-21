@@ -18,13 +18,13 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
     - setuptools >=44
     - setuptools_scm >=3.4.3
     - toml
   run:
-    - python
+    - python >=3.5
     - six
 
 test:
