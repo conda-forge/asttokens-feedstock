@@ -1,11 +1,11 @@
-About asttokens
-===============
+About asttokens-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asttokens-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/gristlabs/asttokens
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asttokens-feedstock/blob/main/LICENSE.txt)
 
 Summary: The asttokens module annotates Python abstract syntax trees (ASTs) with the positions of tokens and text in the source code that generated them.
 
