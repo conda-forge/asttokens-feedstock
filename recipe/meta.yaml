@@ -25,7 +25,7 @@ requirements:
   run:
     - python >={{ python_min }}
   run_constrained:
-    - astroid >=2,<4
+    - astroid >=2,<5
 
 test:
   requires:
